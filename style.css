@@ -64,8 +64,6 @@ body {
 .menuber {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .menuber>ul {
@@ -88,7 +86,7 @@ body {
 
 }
 
-.small-menu{
+.small-menu {
     font-size: 42px;
     opacity: 0;
 }
@@ -391,9 +389,10 @@ select {
 
 /* responsive style */
 @media screen and (max-width:600px) {
-    .container{
+    .container {
         padding: 0 74px;
     }
+
     .pragraph-tag {
         font-size: 39px;
         line-height: 40px;
@@ -404,30 +403,36 @@ select {
     .menuber {
         display: none;
     }
+
     .nav-title h1 {
         font-size: 63px;
     }
-    .small-menu{
+
+    .small-menu {
         opacity: 1;
         margin-right: 19px;
         font-size: 90px;
-}
-    
+    }
+
     /* header section */
     .banner-description {
-        
+
         bottom: 47.65rem;
-        
+
     }
+
     .header-banner img {
         height: 763px;
     }
+
     .banner-text h1 {
         margin-top: -30px;
     }
+
     .banner-text p {
         font-size: 27px;
     }
+
     .banner-search {
         display: flex;
         flex-direction: column;
@@ -447,70 +452,86 @@ select {
     /* population section */
     .popular-section {
         flex-direction: column;
-        
+
     }
+
     .popular-info .primary-btn {
         padding: 53px 140px;
         font-size: 46px;
     }
+
     .popular-info {
         padding: 10px 255px 0 78px;
         margin-bottom: 41px;
     }
+
     .popular-info .heading-tag {
         font-size: 90px;
     }
-    
-    
-    .popular-image img{
+
+
+    .popular-image img {
         width: 100%;
     }
+
     /* destination section */
     .destination-image .image-row {
         flex-direction: column;
     }
+
     .destionation-info .heading-tag {
         font-size: 52px;
     }
+
     .destionation-info .pragraph-tag {
         font-size: 30px;
         line-height: 47px;
     }
+
     .image-row .image-text {
         font-size: 68px;
     }
+
     .image-row .maldives {
         top: 246px;
         left: 498px;
     }
+
     .image-row .indonesia {
         top: 830px;
         left: 483px;
     }
+
     .image-row .srilanka {
         top: 280px;
         left: 418px;
     }
+
     .image-row .america {
         top: 1167px;
         left: 329px;
     }
+
     .image-row .kashmir {
         right: 479px;
         top: 2057px;
     }
+
     .image-row .bangladesh {
         top: 245px;
         left: 342px;
     }
+
     .image-row .bandarban {
         top: 987px;
         right: 408px;
     }
+
     /* service section */
     .service-title .heading-tag {
         font-size: 80px;
     }
+
     .service-title .pragraph-tag {
         color: #131318b3;
         font-size: 37px;
@@ -518,12 +539,30 @@ select {
         line-height: 34px;
     }
 
+    .service-info-title {
+        font-size: 70px;
+    }
+
+    .service-info-discription {
+        font-size: 45px;
+    }
+
+    .service-info h3,
+    .service-info-title {
+        font-size: 40px;
+    }
+
+    .service-info p,
+    .service-info-discription {
+        font-size: 33px;
+    }
 
     .service-contant {
         flex-direction: column;
         padding: 0 74px;
-        
+
     }
+
     .service-contant02 {
         padding: 25px 73px;
     }
@@ -535,46 +574,40 @@ select {
         grid-template-columns: repeat(1, 1fr);
         padding: 0 71px;
     }
+
     .newsletter-content {
         padding: 11px 44px 0 73px;
-        
+
     }
-    .service-info-title{
-        font-size: 70px;
-    }
-    .service-info-discription{
-        font-size: 45px;
-    }
-    .service-info h3, .service-info-title {
-        font-size: 40px;
-    }
-    .service-info p, .service-info-discription {
-        font-size: 33px;
-    }
+
     .newsletter-content input {
         width: 847px;
         padding: 48px 0px 27px 40px;
         font-size: 45px;
     }
+
     .newsletter-content .primary-btn {
         width: 888px;
         padding: 48px 0;
         font-size: 46px;
         margin-bottom: 36px;
     }
-    .newsletter-image img{
+
+    .newsletter-image img {
         width: 100%;
     }
 
-
+    /* footer section */
     .footer-section {
 
         padding: 110px 196px 30px 223px;
         width: 175%;
     }
-    .footer-title{
+
+    .footer-title {
         font-size: 70px;
     }
+
     .copy-right {
         font-size: 31px;
     }
