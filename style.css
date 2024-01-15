@@ -388,6 +388,8 @@ select {
 
 
 /* responsive style */
+
+
 @media screen and (max-width:600px) {
     .container {
         padding: 0 74px;
@@ -599,7 +601,6 @@ select {
 
     /* footer section */
     .footer-section {
-
         padding: 110px 196px 30px 223px;
         width: 175%;
     }
