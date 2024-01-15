@@ -22,6 +22,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .heading-tag {
@@ -227,4 +228,33 @@ select {
     border-radius: 16px;
     border: 1px solid #e9444433;
     background: #e944440d;
+}
+
+/* newsletter-section */
+
+.newsletter-section{
+    display: grid;
+    grid-template-columns: 40% repeat(1,1fr);
+    gap: 15px;
+    margin-top: 60px;
+
+}
+
+.newsletter-content {
+    border: 1px solid #FF5400;
+    border-radius: 15px;
+    padding: 11px 60px 0 73px;
+}
+.newsletter-content input{
+    width: 322px;
+    margin-top: 25px;
+    padding: 14px 0px 14px 20px;
+    border-radius: 13px;
+    background: #1313180d;
+    border: none;
+}
+.newsletter-content .primary-btn{
+    width: 341px;
+    margin-top: 25px;
+
 }
