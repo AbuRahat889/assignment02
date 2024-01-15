@@ -1,0 +1,153 @@
+/* commone style */
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background-color: #FF5400;
+    border: none;
+    padding: 15px 47px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.heading-tag{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pragraph-tag{
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    }
+
+/* header style */
+.header-banner {}
+
+.header-banner img {
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.banner-description {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    position: relative;
+    bottom: 31.65rem;
+    text-align: center;
+    border-radius: 15px;
+
+    padding:57px 264px 0px 277px;
+
+
+}
+
+
+.banner-text h1{
+    color: #fFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-search{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    
+}
+.banner-search input , select{
+    padding: 15px 11px;
+    border-radius: 13px;
+    border: none;
+    
+}
+
+/* popular section */
+
+.popular-section{
+    margin-top: -281px;
+    display: flex;
+}
+.popular-info .heading-tag{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-info .primary-btn{
+    margin-top: 53px;
+}
+
+
+/* destination section */
+.destionation{
+    margin-top: 80px;
+}
+.destionation-info{
+    text-align: center;
+    padding: 0px 286px;
+}
+
+.destination-image{
+    margin-top: 50px;
+}
+.destination-image .image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.destination-image .image-row img{
+    width: 100%;
+}
+.image-row .image-text{
+    position: absolute;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+.image-row .maldives{
+    top: 120px;
+    left: 220px;
+}
+.image-row .indonesia{
+    top: 109px;
+    left: 822px;
+}
+.image-row .srilanka{
+    top: 102px;
+    left: 117px
+}
+.image-row .america{
+    top: 100px;
+    left: 550px
+}
+.image-row .kashmir{
+    top: 97px;
+    right: 75px; 
+}
+.image-row .bangladesh{
+    top: 100px;
+    left: 140px;
+}
+.image-row .bandarban{
+top: 100px;
+right: 240px;
+}
