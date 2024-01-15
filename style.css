@@ -88,6 +88,10 @@ body {
 
 }
 
+.small-menu{
+    font-size: 42px;
+    opacity: 0;
+}
 
 /* banner section */
 
@@ -394,6 +398,21 @@ select {
         font-size: 39px;
         line-height: 40px;
     }
+
+    /* navber */
+
+    .menuber {
+        display: none;
+    }
+    .nav-title h1 {
+        font-size: 63px;
+    }
+    .small-menu{
+        opacity: 1;
+        margin-right: 19px;
+        font-size: 90px;
+}
+    
     /* header section */
     .banner-description {
         
