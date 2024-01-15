@@ -5,8 +5,6 @@ body {
 
     font-family: "Mulish", sans-serif;
     font-style: normal;
-
-    margin-bottom: 100px;
 }
 
 .container {
@@ -37,6 +35,7 @@ body {
     font-weight: 400;
     line-height: 20px;
 }
+
 
 /* header style */
 .header-banner {}
@@ -196,13 +195,15 @@ select {
     border-radius: 20px;
 }
 
-.service-info h3 ,.service-info-title{
+.service-info h3,
+.service-info-title {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
 }
 
-.service-info p , .service-info-discription{
+.service-info p,
+.service-info-discription {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -232,9 +233,9 @@ select {
 
 /* newsletter-section */
 
-.newsletter-section{
+.newsletter-section {
     display: grid;
-    grid-template-columns: 40% repeat(1,1fr);
+    grid-template-columns: 40% repeat(1, 1fr);
     gap: 15px;
     margin-top: 60px;
 
@@ -245,7 +246,8 @@ select {
     border-radius: 15px;
     padding: 11px 60px 0 73px;
 }
-.newsletter-content input{
+
+.newsletter-content input {
     width: 322px;
     margin-top: 25px;
     padding: 14px 0px 14px 20px;
@@ -253,8 +255,67 @@ select {
     background: #1313180d;
     border: none;
 }
-.newsletter-content .primary-btn{
+
+.newsletter-content .primary-btn {
     width: 341px;
     margin-top: 25px;
 
+}
+
+.newsletter-image {
+    position: relative;
+}
+
+.newsletter-image .primary-btn {
+    position: absolute;
+    bottom: 56px;
+    right: 38px;
+    transform: rotate(-23deg);
+    width: 300px;
+    padding: 3px 0px;
+}
+
+.newsletter-image .primary-btn p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 12px;
+}
+
+.newsletter-image .primary-btn h3 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: -14px;
+
+}
+
+/* footer-section */
+.footer-section{
+    margin-top: 90px;
+    background: #1313180d;
+    text-align: center;
+    padding: 110px 330px 30px 330px;
+}
+.footer-info .footer-title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-title span{
+    color: #FF5400;
+}
+.footer-info ul li{
+    display: inline;
+    list-style: none;
+}
+.footer-info a{
+    padding: 16px;
+    font-size: 31px;
+    color: #131318f3;
+}
+.copy-right{
+    padding: 30px 0 50px 0;
 }
